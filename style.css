@@ -35,14 +35,12 @@ main,
   height: 500px;
 }
  #dados {
-  border: 1px solid red;
-  display: flex;
-   
-   
+  
+ 
  }
 
 .linha-dados {
   padding: 10px;
   margin: 15px;
-  width: 30%;
+  width: 200px;
 }
