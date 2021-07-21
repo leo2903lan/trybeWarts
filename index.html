@@ -23,16 +23,38 @@
     </header>
 
     <main>
-      <form id="evaluation-form" action="" method="get">
-        <input type="text" name="nome" id="input-name" placeholder="Nome">
-        <input type="text" name="sobrenome" id="input-lastname" placeholder="Sobrenome">
-        <input type="email" name="mail" id="input-email" placeholder="Email">
+      <section id="dados" class="container-dados">
         
+        <form id="evaluation-form" action="" method="get">
+          
+        <input class="linha-dados" type="text" name="nome" id="input-name" placeholder="Nome">
+        
+        <input class="linha-dados" type="text" name="sobrenome" id="input-lastname" placeholder="Sobrenome">
+        <input class="linha-dados" type="email" name="mail" id="input-email" placeholder="Email">
+        
+        <label class="linha-dados" for="house">Casa:</label>
+        <select  name="house" id="house">
+          <option value="Gitnória" id="gitnoria-house">Gitnória</option>
+          <option value="Reactpuff" id="reactpuff-house">Reactpuf</option>
+          <option value="Corvinode" id="corvinode-house">Corvinode</option>
+          <option value="Pytherina" id="pytherina-house">Pytherina</option>
+        </select>
+      </section>
+
+      <section>
+
+      </section>
       
+      <section>
+
+      </section>
       
       </form>
 
-      <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="logo-colorido">
+      <img 
+        id="trybewarts-forms-logo"
+        src="images/trybewarts-colored.svg" 
+        alt="logo-colorido">
     </main>
 
     <script src="script.js"></script>
