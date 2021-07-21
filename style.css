@@ -22,6 +22,7 @@
 main,
 #evaluation-form {
   display: flex;
+  justify-content: space-around;
 }
 
 #evaluation-form {
@@ -34,15 +35,17 @@ main,
 #trybewarts-forms-logo {
   height: 500px;
 }
- #dados {
+#dados {
   border: 1px solid red;
   display: flex;
-   
-   
- }
+}
 
 .linha-dados {
   padding: 10px;
   margin: 15px;
-  width: 30%;
+  width: 200px;
+}
+
+#house {
+  width: 100px;
 }
