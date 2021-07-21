@@ -19,9 +19,10 @@
   color: white;
 }
 
-main,
+main ,
 #evaluation-form {
   display: flex;
+  justify-content: space-around;
 }
 
 #evaluation-form {
@@ -34,13 +35,21 @@ main,
 #trybewarts-forms-logo {
   height: 500px;
 }
- #dados {
-  
- 
- }
 
-.linha-dados {
+#id {
+  display: flex;
+}
+
+.linha-dados ,
+#label-family {
   padding: 10px;
   margin: 15px;
   width: 200px;
 }
+
+#house {
+  width: 100px;
+
+}
+
+#label-family {}
