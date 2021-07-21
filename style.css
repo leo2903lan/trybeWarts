@@ -60,4 +60,10 @@ main , #evaluation-form {
 
 #label-content {
   display: flex;
+  flex-direction: column;
+}
+
+#radio-family {
+  display: flex;
+  flex-direction: column;
 }
