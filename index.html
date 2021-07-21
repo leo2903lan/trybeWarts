@@ -1,38 +1,54 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Trybewarts</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <title>Trybewarts</title>
-</head>
+  <body>
+    <header class="header">
+      <img
+        class="trybewarts-header-logo"
+        src="images/trybewarts-header-logo.svg"
+        alt="logo"
+      />
+      <h1 id="trybewarts-header-title">Trybewarts</h1>
+      <form class="trybewarts-login" action="" method="GET">
+        <input id="login" placeholder="Login" type="email" />
+        <input id="senha" placeholder="Senha" type="password" />
+        <button id="entrar">Entrar</button>
+      </form>
+    </header>
 
-<body>
-  <header class="header">
-    <img class="trybewarts-header-logo" src="images/trybewarts-header-logo.svg" alt="logo" />
-    <h1 id="trybewarts-header-title">Trybewarts</h1>
-    <form class="trybewarts-login" action="" method="GET">
-      <input id="login" placeholder="Login" type="email" />
-      <input id="senha" placeholder="Senha" type="password" />
-      <button id="entrar">Entrar</button>
-    </form>
-  </header>
-
-  <main>
-    <section id="dados" class="container-dados">
-
+    <main>
       <form id="evaluation-form" action="" method="get">
         <div>
-
-          <input class="linha-dados" type="text" name="nome" id="input-name" placeholder="Nome">
-
-          <input class="linha-dados" type="text" name="sobrenome" id="input-lastname" placeholder="Sobrenome">
-          <input class="linha-dados" type="email" name="mail" id="input-email" placeholder="Email">
-
-
-          <label for="house">Casa:
+          <input
+            class="linha-dados"
+            type="text"
+            name="nome"
+            id="input-name"
+            placeholder="Nome"
+          />
+          <input
+            class="linha-dados"
+            type="text"
+            name="sobrenome"
+            id="input-lastname"
+            placeholder="Sobrenome"
+          />
+          <input
+            class="linha-dados"
+            type="email"
+            name="mail"
+            id="input-email"
+            placeholder="Email"
+          />
+          <label for="house"
+            >Casa:
             <select class="linha-dados" name="house" id="house">
               <option value="Gitnória" id="gitnoria-house">Gitnória</option>
               <option value="Reactpuff" id="reactpuff-house">Reactpuf</option>
@@ -41,38 +57,32 @@
             </select>
           </label>
         </div>
+        <label id="label-family">
+          <p>Qual sua Família:</p>
 
+          <label for="family"
+            >Frontend
+            <input type="radio" name="family" id="" value="Frontend" />
+          </label>
 
-<label id="label-family">
-        <p> Qual sua Família: </p>
+          <label for="family"
+            >Backend
+            <input type="radio" name="family" id="" value="Backend" />
+          </label>
 
-        <label for="family">Frontend
-          <input type="radio" name="family" id="" value="Frontend">
+          <label for="family"
+            >FullStack
+            <input type="radio" name="family" id="" value="FullStack" />
+          </label>
         </label>
+      </form>
+      <img
+        id="trybewarts-forms-logo"
+        src="images/trybewarts-colored.svg"
+        alt="logo-colorido"
+      />
+    </main>
 
-        <label for="family">Backend
-          <input type="radio" name="family" id="" value="Backend">
-        </label>
-
-        <label for="family">FullStack
-          <input type="radio" name="family" id="" value="FullStack">
-        </label>
-
-      </label>
-
-
-    </section>
-
-    <section>
-
-    </section>
-
-    </form>
-
-    <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="logo-colorido">
-  </main>
-
-  <script src="script.js"></script>
-</body>
-
+    <script src="script.js"></script>
+  </body>
 </html>
