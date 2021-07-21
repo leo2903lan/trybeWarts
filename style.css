@@ -19,8 +19,7 @@
   color: white;
 }
 
-main ,
-#evaluation-form {
+main , #evaluation-form {
   display: flex;
   justify-content: space-around;
 }
@@ -40,8 +39,7 @@ main ,
   display: flex;
 }
 
-.linha-dados ,
-#label-family {
+.linha-dados , #label-family {
   padding: 10px;
   margin: 15px;
   width: 200px;
