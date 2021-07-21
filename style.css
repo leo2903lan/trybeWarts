@@ -48,3 +48,16 @@ main , #evaluation-form {
 #house {
   width: 100px;
 }
+
+#family-container{
+  display: flex;
+}
+
+#label-family {
+  display: flex;
+  flex-direction: column;
+}
+
+#label-content{
+  display: flex;
+}
