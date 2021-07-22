@@ -1,16 +1,15 @@
 const checkFinal = document.getElementById('agreement');
-const button = document.getElementById('submit-btn');
-const login = document.getElementById('login');
-const senha = document.getElementById('senha');
-const entrar = document.getElementById('entrar');
-
 checkFinal.addEventListener('click', () => {
+  const button = document.getElementById('submit-btn');
   if (checkFinal.checked) {
     button.removeAttribute('disabled');
   }
 });
 
+const entrar = document.getElementById('entrar');
 entrar.addEventListener('click', () => {
+  const login = document.getElementById('login');
+  const senha = document.getElementById('senha');
   if (login.value === 'tryber@teste.com' && senha.value === '123456') {
     alert('Olá, Tryber!');
   } else {
