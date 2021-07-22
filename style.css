@@ -55,7 +55,6 @@ main , #evaluation-form {
 
 #label-family {
   display: flex;
-  flex-direction: column;
 }
 
 #label-content {
