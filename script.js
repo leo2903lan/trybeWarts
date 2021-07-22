@@ -16,7 +16,7 @@ function validar() {
   if (login.value === 'tryber@teste.com' && senha.value === '123456') {
     alert('Olá, Tryber!');
   } else {
-  alert('Login ou senha inválidos.');
-}
+    alert('Login ou senha inválidos.');
+  }
 }
 entrar.addEventListener('click', validar);
