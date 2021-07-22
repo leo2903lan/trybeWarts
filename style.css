@@ -51,6 +51,7 @@ main , #evaluation-form {
 
 #family-container {
   display: flex;
+  align-items: center;
 }
 
 #label-family {
@@ -65,4 +66,14 @@ main , #evaluation-form {
 #radio-family {
   display: flex;
   flex-direction: column;
+}
+
+#checkbox-container div {
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+}
+
+#notas {
+  display: flex;
 }
